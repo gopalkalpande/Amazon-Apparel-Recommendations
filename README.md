@@ -17,5 +17,9 @@ Each product/item has 19 features in the raw dataset out of these 19 features, w
 3. color ( Color information of apparel, it can contain many colors as a value ex: red and black stripes )
 4. product_type_name (type of the apperal, ex: SHIRT/TSHIRT )
 5. medium_image_url ( url of the image )
-6. title (title of the product.)
-7. formatted_price (price of the product)
+
+
+
+## Approach to Solution
+
+Using idf_w2v, brand, color, image features for finding the similar images using weighted average method.
